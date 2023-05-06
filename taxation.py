@@ -30,6 +30,4 @@ def calculate_total_with_tax(state, cart):
 
         total += item_price + tax_amount
 
-        print(total)
-
-    return total
+    return round(total, 2)
